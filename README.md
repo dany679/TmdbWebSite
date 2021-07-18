@@ -33,8 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto o site do tmdb.
+O projeto sera um site como o tmdb, onde  pode procurar , descobrir os atores e outros detalhes dos filmes e series.
 
+- [Site Inspiração](https://developers.themoviedb.org/)
 ## :memo: Licença
 
 

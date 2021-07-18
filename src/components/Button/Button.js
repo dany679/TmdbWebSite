@@ -1,4 +1,7 @@
+//styles
 import { Wrapper } from './Button.style';
+// verify props
+import PropTypes from 'prop-types';
 
 const Button = ({ text, callback }) => {
   return (
@@ -7,5 +10,7 @@ const Button = ({ text, callback }) => {
     </Wrapper>
   );
 };
-
+Button.propTypes = {
+  text: PropTypes.string,
+};
 export default Button;

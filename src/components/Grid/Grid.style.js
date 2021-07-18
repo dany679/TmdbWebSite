@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  display: grid;
+  background-color: ${({ color }) => (color ? color : '')};
   margin: 0 auto;
-  //max-width: 80%;
-  padding: 0 20px;
+  padding: 0px 20px;
   h2 {
     color: var(--medGrey);
     @media (min-width: 720px) {
@@ -19,5 +20,5 @@ export const Content = styled.div`
   }
   grid-gap: 2rem;
   justify-items: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 `;

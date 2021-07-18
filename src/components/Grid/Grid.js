@@ -1,12 +1,18 @@
 import { Content, Wrapper } from './Grid.style';
+// verify props
+import PropTypes from 'prop-types';
 
-const Grid = ({ header, children }) => {
+const Grid = ({ header, children, color }) => {
+  console.log('cor', color);
   return (
-    <Wrapper>
+    <Wrapper color={color}>
       <h2>{header}</h2>
       <Content> {children}</Content>
     </Wrapper>
   );
 };
-
+Grid.propTypes = {
+  header: PropTypes.string,
+  color: PropTypes.string,
+};
 export default Grid;

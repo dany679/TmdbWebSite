@@ -2,7 +2,9 @@
 import { Wrapper, Content } from './SearchBar.style';
 //icon
 import searchIcon from '../../images/search-icon.svg';
-
+//verify props
+import PropTypes from 'prop-types';
+//hooks
 import { useEffect, useRef, useState } from 'react';
 
 const SearchBar = ({ setSearchTerm }) => {
@@ -36,4 +38,7 @@ const SearchBar = ({ setSearchTerm }) => {
   );
 };
 
+SearchBar.propTypes = {
+  setSearchTerm: PropTypes.func,
+};
 export default SearchBar;

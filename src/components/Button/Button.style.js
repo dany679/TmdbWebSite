@@ -12,7 +12,8 @@ export const Wrapper = styled.button`
   font-size: var(--fontMedium);
   background-color: var(--darkGrey);
   :hover {
-    opacity: 0.8;
+    transition: all ease-in-out 0.2s;
+    background-color: var(--medGrey);
   }
   @media (min-width: 720px) {
     width: 40%;
