@@ -2,9 +2,9 @@
   <img alt="" src="./home-tmdb.png" height-max='720px'>
 </p>
 
-<!-- <p>Link para visitar o site : 
+<p>Link para visitar o site : 
 <a href="https://netflix-clone-q8xyoc18a-dany679.vercel.app/" />Demo</a>
-</p> -->
+</p>
 <p align='center'> tmdb web site<p/>
 
 <p align="center">
