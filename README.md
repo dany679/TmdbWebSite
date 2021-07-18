@@ -3,7 +3,7 @@
 </p>
 
 <p>Link para visitar o site : 
-<a href="https://netflix-clone-q8xyoc18a-dany679.vercel.app/" />Demo</a>
+<a href="https://tmdbdani.netlify.app/" />Demo</a>
 </p>
 <p align='center'> tmdb web site<p/>
 
