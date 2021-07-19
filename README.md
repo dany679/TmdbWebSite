@@ -3,7 +3,7 @@
 </p>
 
 <p>Link para visitar o site : 
-<a href="https://tmdbdani.netlify.app/" />Demo</a>
+<a href="https://tmdbdany.netlify.app/" />Demo</a>
 </p>
 <p align='center'> tmdb web site<p/>
 

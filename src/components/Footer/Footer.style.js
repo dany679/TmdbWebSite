@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: grid;
+  border-top: 2px solid whitesmoke;
   color: var(--white);
   background-color: var(--medGrey);
   p,

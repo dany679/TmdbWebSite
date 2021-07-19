@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Pages/Home';
 import Movie from './components/Pages/Movie';
-import NotFound from './components/Pages/NotFound';
+import NotFound from './components/Pages/NotFound/NotFound';
 
 //style
 import { GlobalStyle } from './GlobalStyle';

@@ -9,13 +9,14 @@ import MovieInfo from '../MovieInfo/MovieInfo';
 import MovieInfoBar from '../MovieInfoBar/MovieInfoBar';
 import Spinner from '../Spinner/Spinner';
 import Grid from '../Grid/Grid';
+import NotFound from './NotFound/NotFound';
 
 const Movie = () => {
   const movieId = useParams();
   const { error, state: movie, loading } = useMovieFetch(movieId);
   // budget, runtime, runtime
   console.log('movie', movie);
-  if (error) return <p>On error just apear...</p>;
+  if (error) return <NotFound text={'Movie not found'} />;
   console.log(error);
   if (loading) return <Spinner />;
   return (
