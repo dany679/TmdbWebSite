@@ -2,7 +2,7 @@ import { Content, Wrapper } from './Footer.style';
 import github from '../../images/github.svg';
 import instagram from '../../images/instagram.svg';
 import linkedin from '../../images/linkedin.svg';
-import CopyToClipBoard from './CopyToClipBoard';
+import CopyToClipBoard from '../CopyToClipBoard/CopyToClipBoard';
 const Footer = () => {
   return (
     <Wrapper>

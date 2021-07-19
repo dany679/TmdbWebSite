@@ -41,14 +41,13 @@ O projeto sera um site como o tmdb, onde  pode procurar , descobrir os atores e 
 
 
 
-obs: nãp tenho direito sobre nenhuma imagem 
+obs: não tenho direito sobre nenhuma imagem 
 API usada foi o tmdb 
 
 - [tmdb](https://developers.themoviedb.org/)
 
 # :wrench: How To Run
 To run this app on your computer, run these commands inside the repository root folder
-
 case you use npm just change to npm install pacote_name
 ```shell
 #  install dependencies, run :
