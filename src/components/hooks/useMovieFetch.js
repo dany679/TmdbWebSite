@@ -37,6 +37,6 @@ export const useMovieFetch = ({ movieId }) => {
     if (!error) {
       sessionStorage.setItem(movieId, JSON.stringify(state));
     }
-  }, [movieId, state]);
+  }, [movieId, state, error]);
   return { error, state, loading };
 };

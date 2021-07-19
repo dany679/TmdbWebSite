@@ -32,7 +32,7 @@ export const useHomeFetch = () => {
     }
     setLoading(false);
   };
-  // first and  search
+  //  first
   useEffect(() => {
     if (!searchTerm) {
       const sessionState = isPersistedState('homeState');
@@ -41,9 +41,25 @@ export const useHomeFetch = () => {
         return;
       }
     }
-    setState(initialState);
+    fetchMovies(1);
+  }, [searchTerm]);
+  // search
+  useEffect(() => {
+    // setState(initialState);
     fetchMovies(1, searchTerm);
   }, [searchTerm]);
+
+  // useEffect(() => {
+  //   if (!searchTerm) {
+  //     const sessionState = isPersistedState('homeState');
+  //     if (sessionState) {
+  //       setState(sessionState);
+  //       return;
+  //     }
+  //   }
+  //   setState(initialState);
+  //   fetchMovies(1, searchTerm);
+  // }, [searchTerm]);
   //loadMore
   useEffect(() => {
     if (!loadingMore) return;
