@@ -66,14 +66,13 @@ const Footer = () => {
         </div>
         <h3>Contact Me</h3>
         <div className='contact'>
-          <p>+55(38)988273087</p>
-          <CopyToClipBoard />
+          <CopyToClipBoard text={'+55(38)988273087'} />
         </div>
       </Content>
       <Content>
         <h5>About this project</h5>
         <p>Make with React Framework and Tmdb API</p>
-        <p>Hooks, Styled components, Content, Storage, Prop Types ...</p>
+        <p>Hooks, Styled components, Context, Storage, Prop Types ...</p>
       </Content>
     </Wrapper>
   );
