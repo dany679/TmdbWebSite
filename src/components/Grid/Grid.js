@@ -3,7 +3,6 @@ import { Content, Wrapper } from './Grid.style';
 import PropTypes from 'prop-types';
 
 const Grid = ({ header, children, color }) => {
-  console.log('cor', color);
   return (
     <Wrapper color={color}>
       <h2>{header}</h2>

@@ -21,7 +21,6 @@ export const useHomeFetch = () => {
       setLoading(true);
       setError(false);
       const movies = await API.fetchMovies(searchTerm, page);
-      console.log(movies);
       setState((old) => ({
         ...movies,
         results:

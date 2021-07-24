@@ -25,7 +25,6 @@ const Home = () => {
   //   : null;
   const randomPopular =
     state.results.length > 0 && !searchTerm ? random(0, 10) : 0;
-  console.log('homeP randomMovie', state.results[randomPopular]);
   return (
     <>
       {/* hero image */}

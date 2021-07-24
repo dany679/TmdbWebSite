@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const HeroImage = ({ title, about, image, movieId }) => {
-  console.log(movieId);
   return (
     <Link to={`/${movieId}`}>
       <Wrapper image={image}>

@@ -14,10 +14,7 @@ import NotFound from './NotFound/NotFound';
 const Movie = () => {
   const movieId = useParams();
   const { error, state: movie, loading } = useMovieFetch(movieId);
-  // budget, runtime, runtime
-  console.log('movie', movie);
   if (error) return <NotFound text={'Movie not found'} />;
-  console.log(error);
   if (loading) return <Spinner />;
   return (
     <>
