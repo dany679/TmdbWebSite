@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - java script [ecma6]
 - react
-- typescript
+- Hooks
 - styled components
 
 ## 💻 Projeto
